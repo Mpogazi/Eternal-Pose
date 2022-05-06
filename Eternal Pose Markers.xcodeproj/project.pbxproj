@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81011D7B2825CFFE00CDACEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011D7A2825CFFE00CDACEC /* AppDelegate.swift */; };
+		81011D7D2825CFFE00CDACEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011D7C2825CFFE00CDACEC /* ContentView.swift */; };
+		81011D7F2825CFFE00CDACEC /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 81011D7E2825CFFE00CDACEC /* Experience.rcproject */; };
+		81011D812825D00100CDACEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81011D802825D00100CDACEC /* Assets.xcassets */; };
+		81011D842825D00100CDACEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81011D832825D00100CDACEC /* Preview Assets.xcassets */; };
+		81011D8E2825D00100CDACEC /* Eternal_Pose_MarkersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011D8D2825D00100CDACEC /* Eternal_Pose_MarkersTests.swift */; };
+		81011D982825D00100CDACEC /* Eternal_Pose_MarkersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011D972825D00100CDACEC /* Eternal_Pose_MarkersUITests.swift */; };
+		81011D9A2825D00100CDACEC /* Eternal_Pose_MarkersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011D992825D00100CDACEC /* Eternal_Pose_MarkersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81011D8A2825D00100CDACEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81011D6F2825CFFE00CDACEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81011D762825CFFE00CDACEC;
+			remoteInfo = "Eternal Pose Markers";
+		};
+		81011D942825D00100CDACEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81011D6F2825CFFE00CDACEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81011D762825CFFE00CDACEC;
+			remoteInfo = "Eternal Pose Markers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81011D772825CFFE00CDACEC /* Eternal Pose Markers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eternal Pose Markers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81011D7A2825CFFE00CDACEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81011D7C2825CFFE00CDACEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81011D7E2825CFFE00CDACEC /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		81011D802825D00100CDACEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81011D832825D00100CDACEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81011D892825D00100CDACEC /* Eternal Pose MarkersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eternal Pose MarkersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81011D8D2825D00100CDACEC /* Eternal_Pose_MarkersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eternal_Pose_MarkersTests.swift; sourceTree = "<group>"; };
+		81011D932825D00100CDACEC /* Eternal Pose MarkersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eternal Pose MarkersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81011D972825D00100CDACEC /* Eternal_Pose_MarkersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eternal_Pose_MarkersUITests.swift; sourceTree = "<group>"; };
+		81011D992825D00100CDACEC /* Eternal_Pose_MarkersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eternal_Pose_MarkersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81011D742825CFFE00CDACEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81011D862825D00100CDACEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81011D902825D00100CDACEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81011D6E2825CFFE00CDACEC = {
+			isa = PBXGroup;
+			children = (
+				81011D792825CFFE00CDACEC /* Eternal Pose Markers */,
+				81011D8C2825D00100CDACEC /* Eternal Pose MarkersTests */,
+				81011D962825D00100CDACEC /* Eternal Pose MarkersUITests */,
+				81011D782825CFFE00CDACEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81011D782825CFFE00CDACEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81011D772825CFFE00CDACEC /* Eternal Pose Markers.app */,
+				81011D892825D00100CDACEC /* Eternal Pose MarkersTests.xctest */,
+				81011D932825D00100CDACEC /* Eternal Pose MarkersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81011D792825CFFE00CDACEC /* Eternal Pose Markers */ = {
+			isa = PBXGroup;
+			children = (
+				81011D7A2825CFFE00CDACEC /* AppDelegate.swift */,
+				81011D7C2825CFFE00CDACEC /* ContentView.swift */,
+				81011D7E2825CFFE00CDACEC /* Experience.rcproject */,
+				81011D802825D00100CDACEC /* Assets.xcassets */,
+				81011D822825D00100CDACEC /* Preview Content */,
+			);
+			path = "Eternal Pose Markers";
+			sourceTree = "<group>";
+		};
+		81011D822825D00100CDACEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81011D832825D00100CDACEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81011D8C2825D00100CDACEC /* Eternal Pose MarkersTests */ = {
+			isa = PBXGroup;
+			children = (
+				81011D8D2825D00100CDACEC /* Eternal_Pose_MarkersTests.swift */,
+			);
+			path = "Eternal Pose MarkersTests";
+			sourceTree = "<group>";
+		};
+		81011D962825D00100CDACEC /* Eternal Pose MarkersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81011D972825D00100CDACEC /* Eternal_Pose_MarkersUITests.swift */,
+				81011D992825D00100CDACEC /* Eternal_Pose_MarkersUITestsLaunchTests.swift */,
+			);
+			path = "Eternal Pose MarkersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81011D762825CFFE00CDACEC /* Eternal Pose Markers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81011D9D2825D00100CDACEC /* Build configuration list for PBXNativeTarget "Eternal Pose Markers" */;
+			buildPhases = (
+				81011D732825CFFE00CDACEC /* Sources */,
+				81011D742825CFFE00CDACEC /* Frameworks */,
+				81011D752825CFFE00CDACEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eternal Pose Markers";
+			productName = "Eternal Pose Markers";
+			productReference = 81011D772825CFFE00CDACEC /* Eternal Pose Markers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81011D882825D00100CDACEC /* Eternal Pose MarkersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81011DA02825D00100CDACEC /* Build configuration list for PBXNativeTarget "Eternal Pose MarkersTests" */;
+			buildPhases = (
+				81011D852825D00100CDACEC /* Sources */,
+				81011D862825D00100CDACEC /* Frameworks */,
+				81011D872825D00100CDACEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81011D8B2825D00100CDACEC /* PBXTargetDependency */,
+			);
+			name = "Eternal Pose MarkersTests";
+			productName = "Eternal Pose MarkersTests";
+			productReference = 81011D892825D00100CDACEC /* Eternal Pose MarkersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81011D922825D00100CDACEC /* Eternal Pose MarkersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81011DA32825D00100CDACEC /* Build configuration list for PBXNativeTarget "Eternal Pose MarkersUITests" */;
+			buildPhases = (
+				81011D8F2825D00100CDACEC /* Sources */,
+				81011D902825D00100CDACEC /* Frameworks */,
+				81011D912825D00100CDACEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81011D952825D00100CDACEC /* PBXTargetDependency */,
+			);
+			name = "Eternal Pose MarkersUITests";
+			productName = "Eternal Pose MarkersUITests";
+			productReference = 81011D932825D00100CDACEC /* Eternal Pose MarkersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81011D6F2825CFFE00CDACEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					81011D762825CFFE00CDACEC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					81011D882825D00100CDACEC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 81011D762825CFFE00CDACEC;
+					};
+					81011D922825D00100CDACEC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 81011D762825CFFE00CDACEC;
+					};
+				};
+			};
+			buildConfigurationList = 81011D722825CFFE00CDACEC /* Build configuration list for PBXProject "Eternal Pose Markers" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81011D6E2825CFFE00CDACEC;
+			productRefGroup = 81011D782825CFFE00CDACEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81011D762825CFFE00CDACEC /* Eternal Pose Markers */,
+				81011D882825D00100CDACEC /* Eternal Pose MarkersTests */,
+				81011D922825D00100CDACEC /* Eternal Pose MarkersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81011D752825CFFE00CDACEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81011D842825D00100CDACEC /* Preview Assets.xcassets in Resources */,
+				81011D812825D00100CDACEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81011D872825D00100CDACEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81011D912825D00100CDACEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81011D732825CFFE00CDACEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81011D7D2825CFFE00CDACEC /* ContentView.swift in Sources */,
+				81011D7B2825CFFE00CDACEC /* AppDelegate.swift in Sources */,
+				81011D7F2825CFFE00CDACEC /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81011D852825D00100CDACEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81011D8E2825D00100CDACEC /* Eternal_Pose_MarkersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81011D8F2825D00100CDACEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81011D982825D00100CDACEC /* Eternal_Pose_MarkersUITests.swift in Sources */,
+				81011D9A2825D00100CDACEC /* Eternal_Pose_MarkersUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81011D8B2825D00100CDACEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81011D762825CFFE00CDACEC /* Eternal Pose Markers */;
+			targetProxy = 81011D8A2825D00100CDACEC /* PBXContainerItemProxy */;
+		};
+		81011D952825D00100CDACEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81011D762825CFFE00CDACEC /* Eternal Pose Markers */;
+			targetProxy = 81011D942825D00100CDACEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81011D9B2825D00100CDACEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81011D9C2825D00100CDACEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81011D9E2825D00100CDACEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eternal Pose Markers/Preview Content\"";
+				DEVELOPMENT_TEAM = ZW7KZKMDJ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Eternal-Pose-Markers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81011D9F2825D00100CDACEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eternal Pose Markers/Preview Content\"";
+				DEVELOPMENT_TEAM = ZW7KZKMDJ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Eternal-Pose-Markers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81011DA12825D00100CDACEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW7KZKMDJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Eternal-Pose-MarkersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eternal Pose Markers.app/Eternal Pose Markers";
+			};
+			name = Debug;
+		};
+		81011DA22825D00100CDACEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW7KZKMDJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Eternal-Pose-MarkersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eternal Pose Markers.app/Eternal Pose Markers";
+			};
+			name = Release;
+		};
+		81011DA42825D00100CDACEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW7KZKMDJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Eternal-Pose-MarkersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eternal Pose Markers";
+			};
+			name = Debug;
+		};
+		81011DA52825D00100CDACEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW7KZKMDJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Eternal-Pose-MarkersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eternal Pose Markers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81011D722825CFFE00CDACEC /* Build configuration list for PBXProject "Eternal Pose Markers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81011D9B2825D00100CDACEC /* Debug */,
+				81011D9C2825D00100CDACEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81011D9D2825D00100CDACEC /* Build configuration list for PBXNativeTarget "Eternal Pose Markers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81011D9E2825D00100CDACEC /* Debug */,
+				81011D9F2825D00100CDACEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81011DA02825D00100CDACEC /* Build configuration list for PBXNativeTarget "Eternal Pose MarkersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81011DA12825D00100CDACEC /* Debug */,
+				81011DA22825D00100CDACEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81011DA32825D00100CDACEC /* Build configuration list for PBXNativeTarget "Eternal Pose MarkersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81011DA42825D00100CDACEC /* Debug */,
+				81011DA52825D00100CDACEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81011D6F2825CFFE00CDACEC /* Project object */;
+}
