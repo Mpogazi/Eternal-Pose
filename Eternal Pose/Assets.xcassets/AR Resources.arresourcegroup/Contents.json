@@ -1,0 +1,29 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "dir1.arreferenceimage"
+    },
+    {
+      "filename" : "dir2.arreferenceimage"
+    },
+    {
+      "filename" : "dir3.arreferenceimage"
+    },
+    {
+      "filename" : "dir4.arreferenceimage"
+    },
+    {
+      "filename" : "dir5.arreferenceimage"
+    },
+    {
+      "filename" : "dir6.arreferenceimage"
+    },
+    {
+      "filename" : "dir6bw.arreferenceimage"
+    }
+  ]
+}

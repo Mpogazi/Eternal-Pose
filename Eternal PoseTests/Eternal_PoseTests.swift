@@ -1,14 +1,14 @@
 //
-//  Eternal_Pose_MarkersTests.swift
-//  Eternal Pose MarkersTests
+//  Eternal_PoseTests.swift
+//  Eternal Pose Tests
 //
 //  Created by Bigabiro Mpogazi Fabrice on 5/6/22.
 //
 
 import XCTest
-@testable import Eternal_Pose_Markers
+@testable import Eternal_Pose
 
-class Eternal_Pose_MarkersTests: XCTestCase {
+class Eternal_PoseTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

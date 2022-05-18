@@ -1,13 +1,13 @@
 //
-//  Eternal_Pose_MarkersUITestsLaunchTests.swift
-//  Eternal Pose MarkersUITests
+//  Eternal_PoseUITestsLaunchTests.swift
+//  Eternal Pose UITests
 //
 //  Created by Bigabiro Mpogazi Fabrice on 5/6/22.
 //
 
 import XCTest
 
-class Eternal_Pose_MarkersUITestsLaunchTests: XCTestCase {
+class Eternal_Pose_UITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

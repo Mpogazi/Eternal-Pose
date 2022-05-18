@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  Eternal Pose Markers
+//  Eternal Pose
 //
 //  Created by Bigabiro Mpogazi Fabrice on 5/16/22.
 //
