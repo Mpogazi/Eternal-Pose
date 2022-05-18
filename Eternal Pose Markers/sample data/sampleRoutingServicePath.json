@@ -1,0 +1,86 @@
+[
+    {
+        "vertex": {
+            "latitude": -23.588634968918647,
+            "longitude": -46.68275984637467
+        },
+        "distance": 0
+    },
+    {
+        "vertex": {
+            "latitude": -23.588597696411355,
+            "longitude": -46.68274243618353
+        },
+        "distance": 1
+    },
+    {
+        "vertex": {
+            "latitude": -23.588545384120412,
+            "longitude": -46.68273069442671
+        },
+        "distance": 1
+    },
+    {
+        "vertex": {
+            "latitude": -23.588554686187894,
+            "longitude": -46.68271465451796
+        },
+        "distance": 1
+    },
+    {
+        "vertex": {
+            "latitude": -23.588557002027976,
+            "longitude": -46.68268849029259
+        },
+        "distance": 1
+    },
+    {
+        "vertex": {
+            "latitude": -23.588556423067953,
+            "longitude": -46.68255444343933
+        },
+        "distance": 1
+    },
+    {
+        "vertex": {
+            "latitude": -23.58853094882703,
+            "longitude": -46.68250354864478
+        },
+        "distance": 1
+    },
+    {
+        "vertex": {
+            "latitude": -23.588509527306257,
+            "longitude": -46.682486703184615
+        },
+        "distance": 1
+    },
+    {
+        "vertex": {
+            "latitude": -23.588486368905418,
+            "longitude": -46.682488853668886
+        },
+        "distance": 1
+    },
+    {
+        "vertex": {
+            "latitude": -23.58844352586387,
+            "longitude": -46.68248311904415
+        },
+        "distance": 1
+    },
+    {
+        "vertex": {
+            "latitude": -23.588391998422004,
+            "longitude": -46.68247451710704
+        },
+        "distance": 1
+    },
+    {
+        "vertex": {
+            "latitude": -23.588411104102697,
+            "longitude": -46.68240283429782
+        },
+        "distance": 1
+    }
+]

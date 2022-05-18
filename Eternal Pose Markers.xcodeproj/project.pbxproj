@@ -15,6 +15,19 @@
 		81011D8E2825D00100CDACEC /* Eternal_Pose_MarkersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011D8D2825D00100CDACEC /* Eternal_Pose_MarkersTests.swift */; };
 		81011D982825D00100CDACEC /* Eternal_Pose_MarkersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011D972825D00100CDACEC /* Eternal_Pose_MarkersUITests.swift */; };
 		81011D9A2825D00100CDACEC /* Eternal_Pose_MarkersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011D992825D00100CDACEC /* Eternal_Pose_MarkersUITestsLaunchTests.swift */; };
+		81011DAB2825F09300CDACEC /* ARContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011DAA2825F09300CDACEC /* ARContainerView.swift */; };
+		81011DB5282B041700CDACEC /* extenders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011DB4282B041700CDACEC /* extenders.swift */; };
+		81011DB9282B20D200CDACEC /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011DB8282B20D200CDACEC /* Node.swift */; };
+		81011DBB282B217300CDACEC /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81011DBA282B217300CDACEC /* Path.swift */; };
+		8170866E28358E1D000842B6 /* ARView+WorldTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170866D28358E1D000842B6 /* ARView+WorldTracking.swift */; };
+		8170867028358E44000842B6 /* ARView+AnchorNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170866F28358E44000842B6 /* ARView+AnchorNodes.swift */; };
+		8170867228358E6B000842B6 /* Entity+Indicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170867128358E6B000842B6 /* Entity+Indicators.swift */; };
+		817F86DB2832916E007FE76E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817F86DA2832916E007FE76E /* Constants.swift */; };
+		8180A986283519B000156ADB /* MeshResource+Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8180A985283519B000156ADB /* MeshResource+Arrow.swift */; };
+		81A4EB0B2832D6F8006857CC /* RoutingServiceDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A4EB0A2832D6F8006857CC /* RoutingServiceDecoder.swift */; };
+		81A4EB0F2832DA95006857CC /* RoutingServiceVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A4EB0E2832DA95006857CC /* RoutingServiceVertex.swift */; };
+		81A4EB472833D9A9006857CC /* sampleRoutingServicePath.json in Resources */ = {isa = PBXBuildFile; fileRef = 81A4EB462833D9A9006857CC /* sampleRoutingServicePath.json */; };
+		81A4EB492833DA4E006857CC /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A4EB482833DA4D006857CC /* ControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +59,19 @@
 		81011D932825D00100CDACEC /* Eternal Pose MarkersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eternal Pose MarkersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81011D972825D00100CDACEC /* Eternal_Pose_MarkersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eternal_Pose_MarkersUITests.swift; sourceTree = "<group>"; };
 		81011D992825D00100CDACEC /* Eternal_Pose_MarkersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eternal_Pose_MarkersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81011DAA2825F09300CDACEC /* ARContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContainerView.swift; sourceTree = "<group>"; };
+		81011DB4282B041700CDACEC /* extenders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extenders.swift; sourceTree = "<group>"; };
+		81011DB8282B20D200CDACEC /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		81011DBA282B217300CDACEC /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		8170866D28358E1D000842B6 /* ARView+WorldTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARView+WorldTracking.swift"; sourceTree = "<group>"; };
+		8170866F28358E44000842B6 /* ARView+AnchorNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARView+AnchorNodes.swift"; sourceTree = "<group>"; };
+		8170867128358E6B000842B6 /* Entity+Indicators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Indicators.swift"; sourceTree = "<group>"; };
+		817F86DA2832916E007FE76E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8180A985283519B000156ADB /* MeshResource+Arrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeshResource+Arrow.swift"; sourceTree = "<group>"; };
+		81A4EB0A2832D6F8006857CC /* RoutingServiceDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingServiceDecoder.swift; sourceTree = "<group>"; };
+		81A4EB0E2832DA95006857CC /* RoutingServiceVertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingServiceVertex.swift; sourceTree = "<group>"; };
+		81A4EB462833D9A9006857CC /* sampleRoutingServicePath.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleRoutingServicePath.json; sourceTree = "<group>"; };
+		81A4EB482833DA4D006857CC /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +122,12 @@
 		81011D792825CFFE00CDACEC /* Eternal Pose Markers */ = {
 			isa = PBXGroup;
 			children = (
+				81A4EB452833D95E006857CC /* sample data */,
+				81011DA92825F04C00CDACEC /* Views */,
+				81011DA82825F04400CDACEC /* Utils */,
+				81011DA62825F02800CDACEC /* Models */,
 				81011D7A2825CFFE00CDACEC /* AppDelegate.swift */,
-				81011D7C2825CFFE00CDACEC /* ContentView.swift */,
+				817F86DA2832916E007FE76E /* Constants.swift */,
 				81011D7E2825CFFE00CDACEC /* Experience.rcproject */,
 				81011D802825D00100CDACEC /* Assets.xcassets */,
 				81011D822825D00100CDACEC /* Preview Content */,
@@ -108,6 +138,7 @@
 		81011D822825D00100CDACEC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				81A4EB422833D755006857CC /* New Group */,
 				81011D832825D00100CDACEC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -128,6 +159,54 @@
 				81011D992825D00100CDACEC /* Eternal_Pose_MarkersUITestsLaunchTests.swift */,
 			);
 			path = "Eternal Pose MarkersUITests";
+			sourceTree = "<group>";
+		};
+		81011DA62825F02800CDACEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81011DB8282B20D200CDACEC /* Node.swift */,
+				81011DBA282B217300CDACEC /* Path.swift */,
+				81A4EB0E2832DA95006857CC /* RoutingServiceVertex.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81011DA82825F04400CDACEC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				81011DB4282B041700CDACEC /* extenders.swift */,
+				8170866F28358E44000842B6 /* ARView+AnchorNodes.swift */,
+				8170866D28358E1D000842B6 /* ARView+WorldTracking.swift */,
+				81A4EB0A2832D6F8006857CC /* RoutingServiceDecoder.swift */,
+				8180A985283519B000156ADB /* MeshResource+Arrow.swift */,
+				8170867128358E6B000842B6 /* Entity+Indicators.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		81011DA92825F04C00CDACEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81A4EB482833DA4D006857CC /* ControlView.swift */,
+				81011D7C2825CFFE00CDACEC /* ContentView.swift */,
+				81011DAA2825F09300CDACEC /* ARContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81A4EB422833D755006857CC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		81A4EB452833D95E006857CC /* sample data */ = {
+			isa = PBXGroup;
+			children = (
+				81A4EB462833D9A9006857CC /* sampleRoutingServicePath.json */,
+			);
+			path = "sample data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +315,7 @@
 			files = (
 				81011D842825D00100CDACEC /* Preview Assets.xcassets in Resources */,
 				81011D812825D00100CDACEC /* Assets.xcassets in Resources */,
+				81A4EB472833D9A9006857CC /* sampleRoutingServicePath.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +340,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A4EB0B2832D6F8006857CC /* RoutingServiceDecoder.swift in Sources */,
 				81011D7D2825CFFE00CDACEC /* ContentView.swift in Sources */,
+				81A4EB492833DA4E006857CC /* ControlView.swift in Sources */,
+				8170866E28358E1D000842B6 /* ARView+WorldTracking.swift in Sources */,
+				8170867228358E6B000842B6 /* Entity+Indicators.swift in Sources */,
+				81011DAB2825F09300CDACEC /* ARContainerView.swift in Sources */,
+				81011DBB282B217300CDACEC /* Path.swift in Sources */,
+				8170867028358E44000842B6 /* ARView+AnchorNodes.swift in Sources */,
 				81011D7B2825CFFE00CDACEC /* AppDelegate.swift in Sources */,
+				81A4EB0F2832DA95006857CC /* RoutingServiceVertex.swift in Sources */,
 				81011D7F2825CFFE00CDACEC /* Experience.rcproject in Sources */,
+				81011DB5282B041700CDACEC /* extenders.swift in Sources */,
+				81011DB9282B20D200CDACEC /* Node.swift in Sources */,
+				8180A986283519B000156ADB /* MeshResource+Arrow.swift in Sources */,
+				817F86DB2832916E007FE76E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
