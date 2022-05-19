@@ -40,6 +40,7 @@ class Path {
         // updating the XY transforms for the nodes
         for i in 1..<nodes.count {
             let x_offset = Float(nodes[i].XYCoordinates.x - root.XYCoordinates.x)
+            
             // Scaling back the y_offset to meters
             let y_offset = Float((nodes[i].XYCoordinates.y - root.XYCoordinates.y) / CONSTANTS.meterScalingFactor)
             
@@ -56,10 +57,10 @@ class Path {
     public func rootNode() -> Node? { nodes.first }
     
     class func pathFromRoutingService(routingServicePath: [RoutingServiceVertex]) -> Path {
-        let path = Path()
+        let path: Path = .init()
         
         for vertex in routingServicePath {
-            var node: Node = Node()
+            var node: Node = .init()
             
             node.coordinates.latitude = vertex.vertex.latitude
             node.coordinates.longitude = vertex.vertex.longitude

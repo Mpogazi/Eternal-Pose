@@ -21,7 +21,7 @@ struct Point {
 struct Node {
     var nodeType: NodeType?
     var transformMatrix: simd_float4x4 = matrix_identity_float4x4
-    var coordinates: CLLocationCoordinate2D = CLLocationCoordinate2D.init()
+    var coordinates: CLLocationCoordinate2D = .init()
     var nodeName: String = "node"
     
     var XYCoordinates: Point {

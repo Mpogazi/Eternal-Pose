@@ -9,14 +9,15 @@ import SwiftUI
 import RealityKit
 
 struct ContentView : View {
-    @State var isNavigating: Bool = false
-    @State var pathData: Path = Path.pathFromRoutingService(routingServicePath: sampleRoutingServicePath)
+    @State var isNavigating: Bool = true
+    @State var pathData: Path = .pathFromRoutingService(routingServicePath: sampleRoutingServicePath)
     @State var showSearchControl: Bool = false
     @State var showMapControl: Bool = false
     
     var body: some View {
         ZStack(alignment: .bottom) {
             ARContainerView(isNavigating: $isNavigating, pathData: $pathData)
+            
             ControlView(isNavigating: $isNavigating,
                         showSearchControl: $showSearchControl,
                         showMapControl: $showMapControl)

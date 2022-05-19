@@ -94,7 +94,5 @@ struct controlButton: View {
         }
     }
     
-    func didDismiss() {
-        print("The UI sheet was dismissed.")
-    }
+    func didDismiss() {}
 }
